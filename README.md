@@ -3,6 +3,11 @@
 This is the sample application for macOS with [MoltenVK](https://github.com/KhronosGroup/MoltenVK "MoltenVK"). This sample does not use GLFW, uses "VK_MVK_macos_surface" extension directly.
 The graphics rendering of the sample application is based on [Vulkan Tutorial](https://vulkan-tutorial.com/ "Vulkan Tutorial").
 
+## Convert GLSL to SPIR-V
+
+$ MoltenVKShaderConverter -gi shader.vsh -so vert.spv
+$ MoltenVKShaderConverter -gi shader.fsh -so frag.spv
+
 ## References
 [MoltenVK](https://github.com/KhronosGroup/MoltenVK "MoltenVK")
 [Vulkan Tutorial](https://vulkan-tutorial.com/ "Vulkan Tutorial")
